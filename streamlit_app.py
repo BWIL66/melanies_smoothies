@@ -15,7 +15,6 @@ st.write("The name of your smoothie will be", name_on_order)
 cnx=st.connection("snowflake")
 session=cnx.session                 
 
-
 # option = st.selectbox(
 #     "What is your favorite fruit ?",
 #     ("Bananas", "strawberries", "Peaches"),
