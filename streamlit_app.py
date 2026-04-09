@@ -22,7 +22,6 @@ session=cnx.session
 #st.write("You selected:", option)
 
 #session = get_active_session()
-session = st.connection ("snowflake")
 my_dataframe = session.table("smoothies.public.fruit_options").select(col('FRUIT_NAME'))
 #st.dataframe(data=my_dataframe, use_container_width=True)
 
